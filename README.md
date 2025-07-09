@@ -9,7 +9,7 @@ int 80h
 ```
 calling linux system call: \
 eax -> 1 = sys_exit \
-ebx -> 1 = exit status \
+ebx -> 1 = exit status
 
 in windows it is equivalent to
 ```asm
